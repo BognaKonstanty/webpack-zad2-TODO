@@ -3,7 +3,7 @@ import React from 'react';
 //import style from './Title.css';
 
 const Todo = ({todo, remove}) => {
-	return (<li onClick={(todo) => todo.remove(todo.id)}>{todo.text}</li>);
+	return (<li onClick={() => remove(todo.id)}>{todo.text}</li>);
 }
 
 const TodoList = ({todos, remove}) => {
