@@ -1,0 +1,21 @@
+.TodoList {
+	width: 1170px;
+	background: red;
+	list-style-type: decimal;
+	padding: 20px 0;
+	padding-left: 30px;
+	margin-top: 5px;
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	line-height: 25px;
+}
+
+li {
+	margin:5px;
+}
+
+li:hover {
+	background: #ff5050;
+}

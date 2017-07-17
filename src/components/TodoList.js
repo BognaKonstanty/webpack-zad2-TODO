@@ -1,6 +1,6 @@
 import React from 'react';
 
-//import style from './Title.css';
+import style from './TodoList.css';
 
 const Todo = ({todo, remove}) => {
 	return (<li onClick={(todo) => todo.remove(todo.id)}>{todo.text}</li>);
@@ -12,7 +12,7 @@ const TodoList = ({todos, remove}) => {
 	});
 
 	return(
-		<div className={TodoList}>
+		<div className={style.TodoList}>
 			{listTasks}	
 		</div>
 	);
