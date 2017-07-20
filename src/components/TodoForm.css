@@ -1,0 +1,17 @@
+
+.TodoForm {
+	margin: 40px auto;
+	width: 1200px;
+}
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    max-width:90%;
+    width:1050px;
+}
+
+button {
+	padding: 12px 20px;
+    margin: 8px 0;
+}
